@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8ceb11f307.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    
+    
+    <title>Pets Shop</title>
+</head>
+<body>
+    <header>
+        
+            <div class="logo">
+                <p style="color:yellow"><span><i class="fa-solid fa-paw"></i></span>PETS STORE</p>
+            </div>
+            <div class="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" active-link>Home</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#">Contacts Us</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="header-right">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="bi bi-brightness-high-fill" id="toggleDark"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+            </div>
+           
+    </header>
+    <banner>
+        <div class="container-fluid" >
+            <div class="subcontainer">
+                
+                <p> Free Shipping on orders above ₹ 599 
+                Today Deals <span> <i class="fa-solid fa-gift"></i></span> </p>
+            </div>
+        </div>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+             
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+             
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="banner1.jpg" alt="Los Angeles" style="width:100%;">
+                 
+                </div>
+          
+                <div class="item">
+                  <img src="banner2.jpg" alt="Chicago" style="width:100%;">
+                
+                </div>
+              
+                <div class="item">
+                  <img src="banner3.jpg" alt="New York" style="width:100%;">
+                  
+                </div>
+            
+              </div>
+          
+             
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><br>
+            
+
+            <!---------->
+            <div class="heading" >
+                <p >Shop by <span>categorie</span></p>
+            </div>
+            <div class="category">
+                
+        <div class="row">
+            <img src="dog.png" alt="">
+            <div class="col-sm">
+                <p>Dogs</p>
+            </div>
+        </div>
+        <div class="row">
+            <img src="cat.png" alt="">
+            <div class="col-sm">
+                <p>Cats</p>
+            </div>
+        </div>
+        <div class="row">
+            <img src="birds.png" alt="">
+            <div class="col-sm">
+                <p>Birds</p>
+            </div>
+        </div>
+        <div class="row">
+            <img src="fish.png" alt="">
+            <div class="col-sm">
+                <p>Fishes</p>
+            </div>
+        </div>
+        <div class="row">
+            <img src="rebbit.png" alt="">
+            <div class="col-sm">
+                <p>Rabbits</p>
+            </div>
+        </div>
+            </div><hr>
+            <!-------------------------------------------------->
+            <div class="feature-products" id="products">
+                <h1 class="fp-text">Recommended <span>Products</span></h1><br>
+                <div class="products">
+                    <div class="product">
+                        <div class="image">
+                            <img src="whiskas.webp" alt="">
+                        </div>
+                        <div class="namePrice">
+                            <h3>Whiskas</h3>
+                            <span>₹ 995.00/span>
+                        </div>
+                        <p>Whiskas Adult (+1 year) Wet Cat Food, Ocean Fish, 24 Pouches (24 x 80g)</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="bay">
+                            <button> Add To Cart </button>
+                        </div>
+
+                    </div>
+                    <div class="product">
+                        <div class="image">
+                            <img src="pedigree.webp" alt="">
+                        </div><br>
+                        <div class="namePrice">
+                            <h3>Pedigree</h3>
+                            <span>₹ 985.00</span>
+                        </div>
+                        <p>Pedigree PRO Expert Nutrition, Adult Small Breed Dogs ,Dry Food, 3kg</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="bay">
+                            <button> Add To Cart </button>
+                        </div>
+
+                    </div>
+                    <div class="product">
+                        <div class="image">
+                            <img src="brunos.webp" alt="">
+                        </div><br><br>
+                        <div class="namePrice">
+                            <h3>Brunos</h3>
+                            <span>₹ 359.00</span>
+                        </div>
+                        <p>Brunos Chicken With Carrot & Pumpkin 85G<br></p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="bay">
+                            <button> Add To Cart </button>
+                        </div>
+
+                    </div>
+                    <div class="product">
+                        <div class="image">
+                            <img src="sofa.webp" alt="">
+                        </div>
+                        <div class="namePrice">
+                            <h3>Pet Pixel Art</h3>
+                            <span>₹ 2,360.00</span>
+                        </div>
+                        <p>Koha’s Customized Pet Pixel Art -Small (25.6x25.6 cm, 1024 Bricks)</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="bay">
+                            <button> Add To Cart </button>
+                        </div>
+
+                    </div>
+                    <div class="product">
+                        <div class="image">
+                            <img src="lamby.webp" alt="">
+                        </div><br>
+                        <div class="namePrice">
+                            <h3>Lamby</h3>
+                            <span>₹ 224.00</span>
+                        </div>
+                        <p>Brunos Wild Essentials Rosemary & Thyme Lamb Jerky Dog Treat 60g</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="bay">
+                            <button>Add To Cart </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div><hr>
+            <!--------------------------->
+            <div class="services" id="services" >
+
+                <h1 class="s-heading"> Our <span>services</span> </h1>
+            
+                <div class="box-container">
+            
+                    <div class="box">
+                        <img src="sitting.jpg" alt="" width="70%">
+                        <h3>Puppy Sitting</h3>
+                        
+                    </div>
+            
+                    <div class="box">
+                        <img src="walking.jpg" alt="" width="70%">
+                        <h3>Dog Walking</h3>
+                        
+                    </div>
+            
+                    <div class="box">
+                        <img src="pet sitting.jpg" alt="" width="70%">
+                        <h3>Pet Sitting</h3>
+                        
+                    </div>
+            
+                    <div class="box">
+                        <img src="Overnight Pet Care.jpg" alt="" width="70%">
+                        <h3>Overnight Pet Care</h3>
+                        
+                    </div>
+            
+                    <div class="box">
+                        <img src="pet-taxi.jpg" alt="" width="70%">
+                        <h3>Pet Taxi</h3>
+                        
+                    </div>
+            
+                    <div class="box">
+                        <img src="medical adminstrarton.jpg" alt="" width="70%">
+                        <h3>Medical Administration</h3>
+                        
+                    </div>
+                    
+            
+                </div>
+            
+            </div>
+            <!--------------------------->
+            <hr>
+            <div class="plan" id="plans">
+                <h1 class="plan-heading"> Choose A <span> Plan </span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <h3 class="title">Pet Care</h3>
+                        <h3 class="day">1 day</h3>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <div class="list">
+                            <p>pet room<span><i class="fas fa-check"></i></span></p>
+                            <p>pet meal<span><i class="fas fa-check"></i> </p>
+                            <p>pet grooming<span><i class="fa-solid fa-xmark"></i></p>
+                            <p>pet excercise<span><i class="fa-solid fa-xmark"></i></p>
+                        </div>
+                        <div class="amount">₹ <span>500</span></div>
+                        <button class="pet-btn">Choose a plan </button>
+                    </div>
+                    <div class="box">
+                        <h3 class="title">Pet Care</h3>
+                        <h3 class="day">10 days</h3>
+                        <i class="fas fa-motorcycle icon"></i>
+                        <div class="list">
+                            <p>pet room<span><i class="fas fa-check"></i></span></p>
+                            <p>pet grooming<span><i class="fas fa-check"></i></p>
+                            <p>pet meal<span><i class="fas fa-check"></i> </p>
+                            <p>pet excercise<span><i class="fa-solid fa-xmark"></i></p>
+                        </div>
+                        <div class="amount">₹ <span>5000</span></div>
+                        <button class="pet-btn">Choose a plan </button>
+                    </div>
+                    <div class="box">
+                        <h3 class="title">Pet Care</h3>
+                        <h3 class="day">1 month</h3>
+                        <i class="fas fa-car-side icon"></i>
+                        <div class="list">
+                            <p>pet room<span><i class="fas fa-check"></i></span></p>
+                            <p>pet grooming<span><i class="fas fa-check"></i></p>
+                            <p>pet meal<span><i class="fas fa-check"></i> </p>
+                            <p>pet excercise<span><i class="fas fa-check"></i></p>
+                        </div>
+                        <div class="amount">₹ <span>15000</span></div>
+                        <button class="pet-btn">Choose a plan </button>
+                    </div>
+                </div>
+            </div><hr>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4><span><i class="fa-solid fa-paw"></i></span>Pets Store</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">our products</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">Service booking</a></li>
+                                <li><a href="#">payment options</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>online shop</h4>
+                            <ul>
+                                <li><a href="#">proucts</a></li>
+                                <li><a href="#">pets</a></li>
+                                <li><a href="#">accessories</a></li>
+                               
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </footer>
+
+          
+          
+          
+        </banner><br><br>
+        <script src="main.js"></script>
+        
+        
+        
+    
+</body>
+</html>
