@@ -35,26 +35,23 @@ header{
    color:#aa3604;
    font-size: 25px;
 }
-/*-----------*/
-.category{
-   
+
+.box-category{
     padding-top: 20px;
-    padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
+    background-color: lavender;
 }
-.category>.row>img{
+.box-category>.gallery>img{
     justify-content: center;
     align-items: center;
-    border:2px solid palevioletred ;
-    
+    border:2px solid darkturquoise;
     border-radius: 20px;
     flex-wrap: wrap;
     
-}.category>.row>{
+}.box-category>.gallery>{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -62,33 +59,40 @@ header{
 }.heading>p{
     margin-left: 60px;
     font-size: 40px;
-    color:red;
+    color: rgb(243, 14, 14);
     font-family: sans-serif;
     text-align: center;
 }.heading>p>span{
     font-size: 50px;
     color:rgb(107, 237, 15);
 }
-.category>.row>.col-sm{
-    
+.box-category>.gallery>.desc
+{
     text-align: center;
     margin-top: 2px;
     padding-right: 5px;
     color:yellowgreen;
     font-size: 30px;
 }
-.row img:hover{
-    transform: scale(0.9);
-   
-}
 hr {
     border: 2px solid rgb(8, 51, 224);
     margin-left: 40px;
     margin-right:40px;
   }
-  
+  .gallery img:hover{
+    transform: scale(0.9);
+   
+}
 
-/*----------------*/
+.highlight>.gallery1>img{
+    width:400px;
+    height:200px;
+}
+.gallery1 img:hover{
+    transform: scale(0.9);
+   
+}
+/*-----*/
 :root{
     --bodyBack: #ffeaed;
     --textColor: #1b2741;
@@ -199,9 +203,6 @@ hr {
 }
 /*----------*/
 .services{
-   
-   padding-left: 30px;
-   padding-right: 30px;
    padding-bottom: 50px;
 }
 
@@ -257,8 +258,14 @@ hr {
     border-radius: .5rem;
     margin-bottom: 2rem;
     background-color: pink;
+    transform: scale(0.9);
     
 }
+.box:hover{
+    background-color: rgb(188, 182, 255);
+}
+   
+
 .btn{
     position: absolute;
     bottom: -2rem;
